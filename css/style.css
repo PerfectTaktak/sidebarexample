@@ -1,0 +1,68 @@
+body {
+  font-family: "Lato", sans-serif;
+  background: #ffffff;
+}
+
+.sidebar {
+  height: 100%;
+  width: 20%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidebar a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #000;
+  display: block;
+}
+.sidebar .active {
+  background: #2628a0;
+  color: #fff;
+}
+
+.sidebar a:hover {
+  background: #fff;
+  color: #2628a0;
+}
+
+.sidebar .about {
+
+  background: #fff;
+  color: #2628a0;
+}
+
+.sidebar .news {
+
+  background: #fff;
+  color: #2628a0;
+}
+
+.sidebar .contact {
+
+  background: #fff;
+  color: #2628a0;
+}
+
+.main {
+  margin-left: 20%; 
+  padding: 0px 10px;
+}
+.card {
+  border: 1px solid gray;
+  width: 200px;
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.cardcon {
+  padding: 5px 2px;
+  text-align: center;
+  font-size: 15px;
+}

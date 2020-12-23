@@ -1,0 +1,90 @@
+body {
+    font-family: "Lato", sans-serif;
+    background: #ffffff;
+  }
+  
+  .sidebar {
+    height: 100%;
+    width: 20%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  .sidebar a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #000;
+    display: block;
+  }
+  .sidebar .active {
+    background: #fff;
+    color: #2628a0;
+  }
+  
+  .sidebar a:hover {
+    background: #fff;
+    color: #2628a0;
+  }
+  
+  .sidebar .about {
+  
+    background: #2628a0;
+    color: #fff;
+  }
+  
+  .sidebar .news {
+  
+    background: #fff;
+    color: #2628a0;
+  }
+  
+  .sidebar .contact {
+  
+    background: #fff;
+    color: #2628a0;
+  }
+
+  .no-avatar {
+
+    margin-top: -5px;
+    margin-left: 285px;
+  }
+
+  .noelbaba {
+
+    margin-top: -258px;
+    margin-left: 625px;
+  }
+
+  .notes {
+
+    margin-top: -228px;
+    margin-left: 1000px;
+  }
+
+  .yazi1 {
+
+    margin-top: 10px;
+    margin-left: 285px;
+
+  }
+
+  .yazi2 {
+
+    margin-top: -48px;
+    margin-left: 590px;
+
+  }
+
+  .yazi3 {
+
+    margin-top: -48px;
+    margin-left: 950px;
+
+  }
